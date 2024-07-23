@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+  }
+
+  .div {
+    border: solid 2px black;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #canvas {
+    background: #fff;
+    border: solid 2px;
+    width: 250px;
+    height: 250px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  label {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+
+  #pontos {
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: x-large;
+    font-family: monospace;
+    text-align: center;
+    background-color: #f1f1f1;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  #joyStick {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .seta {
+    border: solid 2px black;
+    width: 70px;
+    height: 70px;
+    background-color: #f1f1f1;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .seta:active{
+    background-color: #e8e8e8;
+    scale: .9;
+    color: #000000;
+  }
+
+  .upDown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  
